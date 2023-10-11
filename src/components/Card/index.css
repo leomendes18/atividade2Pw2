@@ -14,12 +14,26 @@
   word-wrap: break-word;
   width: 90%;
 }
-.checkbox{
-  color: #4EA8DE;
+.check{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  outline: #4EA8DE 2px solid;
+  background-color: #333333;
+  appearance: none;
+}
+.check:checked{
+  background-image: url('../../assets/check.png');
+  background-size: cover;
+  outline: 0px;
 }
 .lixeira{
   width: 12px;
   height: 18px;
+}
+.lixeira:hover{
+  filter: invert(44%) sepia(38%) saturate(1013%) hue-rotate(314deg)
+          brightness(97%) contrast(88%);
 }
 .buttonLixeira{
   background-color: #333333;

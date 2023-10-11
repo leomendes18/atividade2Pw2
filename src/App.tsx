@@ -5,8 +5,6 @@ import { Section } from './components/Section'
 import { Card } from './components/Card'
 import { useState } from 'react'
 
-
-
 function App() {
   const [tecno, setTecno] = useState('')
   const [arrayTec, setArrayTect] =  useState<Object[]>([])
