@@ -1,0 +1,28 @@
+.cards{
+  display: flex;
+  width: 38%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333333;
+  padding: 16px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.cardName{
+  color: #F2F2F2;
+  word-wrap: break-word;
+  width: 90%;
+}
+.checkbox{
+  color: #4EA8DE;
+}
+.lixeira{
+  width: 12px;
+  height: 18px;
+}
+.buttonLixeira{
+  background-color: #333333;
+  border: 0px;
+  width: 15px;
+}
