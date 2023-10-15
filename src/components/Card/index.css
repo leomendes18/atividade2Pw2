@@ -1,9 +1,10 @@
 .cards{
   display: flex;
   width: 38%;
-  margin-top: 30px;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 12px;
   background-color: #333333;
   padding: 16px;
   gap: 10px;
@@ -13,6 +14,12 @@
   color: #F2F2F2;
   word-wrap: break-word;
   width: 90%;
+}
+.cardNameLine{
+  color: #808080;
+  word-wrap: break-word;
+  width: 90%;
+  text-decoration-line: line-through;
 }
 .check{
   width: 13px;

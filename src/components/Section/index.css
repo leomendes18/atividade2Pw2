@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
 .boxSection{
   display: flex;
   width: 38%;
@@ -8,17 +9,39 @@
 .boxTec{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
   width: 100%;
 }
 .tecCriada{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
   color: #4EA8DE;
 }
 .tecConcluida{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
   color: #8284FA;
 }
 .quantidade{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
   background-color: #333333;
   width: 25px;
+  height: 19px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  color: #D9D9D9;
+}
+.quantidade2{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #333333;
+  width: 60px;
   height: 19px;
   border-radius: 999px;
   display: flex;

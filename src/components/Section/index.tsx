@@ -1,6 +1,6 @@
 import './index.css'
 
-export function Section({totalTecno}) {
+export function Section({totalTecno, concluido}) {
   return (
     <div className='boxSection'>
       <div className='boxTec'>
@@ -10,7 +10,7 @@ export function Section({totalTecno}) {
         </div>
         <div className='divTec'>
           <p className='tecConcluida'>Concluídas</p>
-          <p className="quantidade">0</p>
+          <p className="quantidade2">{concluido} de {totalTecno}</p>
         </div>
       </div>
     </div>
